@@ -25,46 +25,45 @@
     </div>
   </nav>
 
-    <div class="container">
+  <div class="container">
+    <div class="card text-center" style="width: 18rem">
+      <div class="card-body">
+        <h1 class="card-title">Contact</h1>
         <div class="row">
+          <form>
             <div class="col-md-12">
-                <p><h1>Contact</h1></p>
+              <div class="form-group">
+                <label for="enterFullName">Full Name: *</label>
+                <input type="name" class="form-control" id="fullName" required="required" data-error="Please, leave us a message." >
+              </div>
             </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Email Address: *</label>
+                  <input type="email" class="form-control" id="emailFunction" aria-describedby="emailHelp" required="required" data-error="Please, leave us a message.">
+                  <small id="emailHelp" class="form-text text-muted">Email will not be shared to anyone.</small>
+              </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                  <label for="enterPhoneNumber">Phone Number:</label>
+                  <input type="email" class="form-control" id="phoneNumber" aria-describedby="enterPhoneNumber">
+                  <small id="enterPhoneNumber" class="form-text text-muted">(optional)</small>
+                </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message">Message: *</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Type Message Here *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+              <button type="submit" class="btn btn-primary" style="width: 14rem;">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="row">
-            <form>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="enterFullName">Full Name: *</label>
-                  <input type="name" class="form-control" id="fullName">
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email Address: *</label>
-                    <input type="email" class="form-control" id="emailFunction" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">Email will not be shared to anyone.</small>
-                </div>
-              </div>
-              <div class="col-md-12">
-                  <div class="form-group">
-                    <label for="enterPhoneNumber">Phone Number:</label>
-                    <input type="email" class="form-control" id="phoneNumber" aria-describedby="enterPhoneNumber">
-                    <small id="enterPhoneNumber" class="form-text text-muted">(optional)</small>
-                  </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="form_message">Message: *</label>
-                  <textarea id="form_message" name="message" class="form-control" placeholder="Type Message Here *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </div>
+      </div>
     </div>
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
