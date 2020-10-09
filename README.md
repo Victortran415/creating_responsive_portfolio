@@ -5,9 +5,11 @@ Responsive design ensures that web applications render well on a variety of devi
 
 Using Bootstrap CSS Framework to create a mobile responsive portfolio.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+* Create the following files: `index.html`, `portfolio.html` and `contact.html`.
 
-* Using Bootstrap, develop a portfolio site with the following items:
+* Also, create an CSS file to add some colors and better layouts so that the portfolio does not look boring. 
+
+* Used Bootstrap, develop a portfolio site with the following items:
 
    * A navbar
 
@@ -15,7 +17,16 @@ Using Bootstrap CSS Framework to create a mobile responsive portfolio.
 
    * Responsive images
 
+   * Added card in the contact.html
+
+   * Added a footer to match the navbar 
+
 * The Bootstrap portfolio should minimize the use of media queries.
+
+   * When making the portfolio smaller the media screen would change to a brighter color.
+
+
 
 
 https://github.com/Victortran415/creating_responsive_portfolio
+https://github.com/Victortran415/creating_responsive_portfolio/issues/1#issue-717923020
